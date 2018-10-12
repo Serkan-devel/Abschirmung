@@ -6,17 +6,25 @@
     <link rel="stylesheet" href="css/m-grid.css" />
     <link rel="stylesheet" href="css/m-components.css" />
     <link rel="stylesheet" href="css/m-layout.css" />
+    <link rel="stylesheet" href="css/overwrite.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abschirmung</title>
   </head>
   <body>
-    <div class="m-container">
-      <div class="m-row">
-        <div class="m-block m-badge m-success">
-          <h3>OP</h3>
-          <p><a href="#">Author</a> Sample text</p>
+    <header>
+      <nav id="navigation">
+        <div class="m-container">
+          <div class="m-row">
+            <a href="#" id="m-navbar-brand" class="m-col-t-9 m-col-m-none m-left-m">Abschirmung</a>
+            <a id="m-navbar-show" href="#navigation" title="Show navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+            <a id="m-navbar-hide" href="#" title="Hide navigation" class="m-col-t-3 m-hide-m m-text-right"></a>
+          </div>
         </div>
-      </div>
+      </nav>
+    </header>
+    <div class="m-block m-default">
+      <h3>User1</h3>
+      <span class="m-dim">Sample Text</span>
     </div>
   </body>
 </html>
