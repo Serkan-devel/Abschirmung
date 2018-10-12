@@ -1,3 +1,3 @@
-# Abschirming
+# Abschirmung
 
 Some resources for a blocking proposal for minds.com
